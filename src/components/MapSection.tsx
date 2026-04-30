@@ -10,10 +10,20 @@ export default function MapSection() {
           </p>
         </div>
 
-        <div className="overflow-hidden rounded-2xl border border-border">
+        <div className="rounded-2xl border border-border bg-card p-6 text-center shadow-xl shadow-primary/10 md:hidden">
+          <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-3xl">
+            📍
+          </div>
+          <h3 className="text-xl font-bold text-foreground">Just Smile Dental Care</h3>
+          <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+            Uma Plaza, Near Madhuram Circle, Kharvasa–Dindoli Road, Dindoli, Surat – 394210
+          </p>
+        </div>
+
+        <div className="hidden overflow-hidden rounded-2xl border border-border md:block">
           <iframe
             title="Just Smile Dental Care & Maxillofacial Clinic Location"
-            src="https://www.google.com/maps?q=21.142827,72.8810645&z=17&output=embed"
+            src="https://maps.google.com/maps?q=Just%20Smile%20Dental%20Care%20and%20Maxillofacial%20Clinic%2C%20Uma%20Plaza%2C%20Dindoli%2C%20Surat&ll=21.142827,72.8810645&z=16&output=embed"
             width="100%"
             height="400"
             style={{ border: 0 }}
