@@ -6,7 +6,7 @@ export default function MapSection() {
           <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-primary">Find Us</p>
           <h2 className="text-3xl font-bold text-foreground md:text-4xl">Visit Our Clinic</h2>
           <p className="mt-3 text-muted-foreground">
-            Navjeevan Tower, Near Saket Square, Old Palasia, Indore – 452018
+            Uma Plaza, Near Madhuram Circle, Kharvasa–Dindoli Road, Dindoli, Surat – 394210
           </p>
         </div>
 
