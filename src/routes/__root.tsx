@@ -6,7 +6,7 @@ import logo from "@/assets/logo.png";
 import clinicRoom from "@/assets/clinic-room.jpg";
 import clinicLobby from "@/assets/clinic-lobby.jpg";
 import clinicHall from "@/assets/clinic-hall.jpg";
-import clinicSterilization from "@/assets/clinic-sterilization.jpg";
+
 
 function NotFoundComponent() {
   return (
@@ -74,7 +74,7 @@ export const Route = createRootRoute({
       { rel: "preload", as: "image", href: clinicRoom },
       { rel: "preload", as: "image", href: clinicLobby },
       { rel: "preload", as: "image", href: clinicHall },
-      { rel: "preload", as: "image", href: clinicSterilization },
+      
     ],
   }),
   shellComponent: RootShell,
