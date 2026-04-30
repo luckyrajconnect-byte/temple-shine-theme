@@ -17,12 +17,12 @@ const images = [
   {
     src: clinicHall,
     alt: "Clinic treatment hall",
-    placeholder: "Your Clinic’s Real Photos Will Be Showcased Here",
+    placeholder: "",
   },
   {
     src: clinicSterilization,
     alt: "Sterilization room",
-    placeholder: "Your Clinic’s Real Photos Will Be Showcased Here",
+    placeholder: "",
   },
 ];
 
