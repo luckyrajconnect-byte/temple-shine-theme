@@ -18,16 +18,16 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Dental Clinic — Best Dental Clinic in India" },
+      { title: "Just Smile Dental Care & Maxillofacial Clinic — Best Dental Clinic in Surat" },
       {
         name: "description",
         content:
-          "Experience world-class dental care at Dental Clinic. From routine check-ups to complete smile makeovers.",
+          "Just Smile Dental Care & Maxillofacial Clinic in Dindoli, Surat. Painless dental treatments, implants, smile makeover, root canal & braces by Dr. Nikunj Patel. Book your appointment today.",
       },
-      { property: "og:title", content: "Dental Clinic — Best Dental Clinic in India" },
+      { property: "og:title", content: "Just Smile Dental Care & Maxillofacial Clinic — Surat" },
       {
         property: "og:description",
-        content: "Experience world-class dental care at Dental Clinic.",
+        content: "Painless dental treatments, implants, smile makeover & more in Dindoli, Surat.",
       },
     ],
   }),
