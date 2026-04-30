@@ -33,17 +33,13 @@ export default function AboutDoctor() {
           </div>
 
           <div>
-            <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-primary">
-              About the Doctor
-            </p>
-            <h2 className="text-3xl font-extrabold text-foreground md:text-4xl">
-              Dr. Deepika Lashkia
-            </h2>
+            <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-primary">About the Doctor</p>
+            <h2 className="text-3xl font-extrabold text-foreground md:text-4xl">Dr. Nikunj Patel</h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              Dr. Deepika Lashkia is a highly skilled dentist at Dental Clinic, Indore. With over a
-              decade of experience, she is passionate about creating beautiful, healthy smiles. Her
-              gentle approach and modern techniques make every visit comfortable for patients of all
-              ages.
+              Dr. Nikunj Patel is a dental surgeon at Just Smile Dental Care & Maxillofacial Clinic, Surat. He
+              specializes in advanced dental and maxillofacial treatments, focusing on precise procedures and patient
+              comfort. His approach combines modern techniques with practical treatment planning to ensure effective and
+              long-lasting results.
             </p>
             <ul className="mt-6 space-y-3">
               {qualifications.map((q) => (
