@@ -6,17 +6,14 @@ const images = [
   {
     src: clinicRoom,
     alt: "Dental treatment room",
-    placeholder: "",
   },
   {
     src: clinicLobby,
     alt: "Clinic waiting area",
-    placeholder: "",
   },
   {
     src: clinicHall,
     alt: "Clinic treatment hall",
-    placeholder: "",
   },
 ];
 
@@ -48,11 +45,6 @@ export default function ClinicGallery() {
                 width={800}
                 height={600}
               />
-              <div className="absolute inset-0 z-10 flex items-center justify-center bg-foreground/25 p-4">
-                <p className="text-center text-base font-semibold text-primary-foreground drop-shadow-lg">
-                  {img.placeholder}
-                </p>
-              </div>
             </div>
           ))}
         </div>

@@ -13,7 +13,7 @@ export default function MapSection() {
         <div className="overflow-hidden rounded-2xl border border-border">
           <iframe
             title="Just Smile Dental Care & Maxillofacial Clinic Location"
-            src="https://www.google.com/maps?q=21.142827,72.8810645&z=17&output=embed"
+            src="https://maps.google.com/maps?q=Just%20Smile%20Dental%20Care%20and%20Maxillofacial%20Clinic%2C%20Uma%20Plaza%2C%20Dindoli%2C%20Surat&ll=21.142827,72.8810645&z=16&output=embed"
             width="100%"
             height="400"
             style={{ border: 0 }}
