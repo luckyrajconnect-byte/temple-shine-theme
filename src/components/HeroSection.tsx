@@ -20,7 +20,7 @@ export default function HeroSection() {
         <div className="max-w-2xl">
           <div className="mb-7 inline-flex items-center gap-2 rounded-full border border-gold/60 bg-gold/20 px-4 py-2 text-xs font-bold uppercase tracking-wider text-gold shadow-lg shadow-gold/10 backdrop-blur-md animate-fade-in">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" />
-            BEST Dental Care in Indore
+            BEST Dental Care in Surat
           </div>
 
           <h1 className="text-4xl font-extrabold leading-[1.08] text-primary-foreground drop-shadow-xl md:text-7xl lg:text-8xl animate-fade-in-up">
@@ -31,8 +31,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/85 md:text-lg animate-fade-in-up-delay">
-            Pain-free treatment aur quick appointments ab better smile ke liye wait karne ki zarurat
-            nahi
+            Pain-free treatment aur quick appointments ab better smile ke liye wait karne ki zarurat nahi
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up-delay-2">
