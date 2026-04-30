@@ -59,6 +59,11 @@ export const Route = createRootRoute({
           "Painless dental treatments, implants, smile makeover & more in Dindoli, Surat. Book your appointment today.",
       },
       { name: "twitter:image", content: logo },
+      { name: "description", content: "Just Smile Dental Care is a website for a dental clinic, showcasing services, gallery, and doctor information." },
+      { property: "og:description", content: "Just Smile Dental Care is a website for a dental clinic, showcasing services, gallery, and doctor information." },
+      { name: "twitter:description", content: "Just Smile Dental Care is a website for a dental clinic, showcasing services, gallery, and doctor information." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1df18ddb-0631-44df-a99f-600a6ab85615/id-preview-3c3b030f--75d8b876-aaae-438c-9474-ccbabbb0d319.lovable.app-1777561411865.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1df18ddb-0631-44df-a99f-600a6ab85615/id-preview-3c3b030f--75d8b876-aaae-438c-9474-ccbabbb0d319.lovable.app-1777561411865.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
