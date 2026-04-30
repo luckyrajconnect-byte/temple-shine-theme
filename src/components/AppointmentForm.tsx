@@ -47,7 +47,8 @@ export default function AppointmentForm() {
               <div className="flex items-center gap-3 rounded-lg border border-border bg-card/80 p-4">
                 <span className="text-lg">📍</span>
                 <span className="text-sm text-muted-foreground">
-                  Uma Plaza, Near Madhuram Circle, Kharvasa–Dindoli Road, Dindoli, Surat – 394210
+                  Uma plaza, 127, Kharvasa - Dindoli Rd, near madhuram circal, Dindoli, Surat, Karadva, Gujarat 394210,
+                  India
                 </span>
               </div>
               <div className="flex items-center gap-3 rounded-lg border border-border bg-card/80 p-4">
