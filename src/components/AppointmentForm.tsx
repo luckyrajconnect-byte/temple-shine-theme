@@ -47,7 +47,7 @@ export default function AppointmentForm() {
               <div className="flex items-center gap-3 rounded-lg border border-border bg-card/80 p-4">
                 <span className="text-lg">📍</span>
                 <span className="text-sm text-muted-foreground">
-                  Navjeevan Tower, Near Saket Square, Old Palasia, India
+                  Uma Plaza, Near Madhuram Circle, Kharvasa–Dindoli Road, Dindoli, Surat – 394210
                 </span>
               </div>
               <div className="flex items-center gap-3 rounded-lg border border-border bg-card/80 p-4">
