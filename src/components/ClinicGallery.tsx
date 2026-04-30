@@ -47,7 +47,7 @@ export default function ClinicGallery() {
               <img
                 src={img.src}
                 alt={img.alt}
-                className="h-72 w-full object-cover clinic-blur-soft"
+                className="h-72 w-full object-cover"
                 loading="lazy"
                 decoding="async"
                 fetchPriority="low"
