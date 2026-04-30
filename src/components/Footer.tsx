@@ -157,7 +157,7 @@ export default function Footer() {
 
         <div className="mt-10 border-t border-primary-foreground/10 pt-6 text-center">
           <p className="text-xs text-primary-foreground/40">
-            © {new Date().getFullYear()} Dental Clinic. All rights reserved.
+            © {new Date().getFullYear()} Just smile dental care and maxillofacial clinic. All rights reserved.
           </p>
         </div>
       </div>
