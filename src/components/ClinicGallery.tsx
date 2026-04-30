@@ -7,12 +7,12 @@ const images = [
   {
     src: clinicRoom,
     alt: "Dental treatment room",
-    placeholder: "Your Clinic’s Real Photos Will Be Showcased Here",
+    placeholder: "",
   },
   {
     src: clinicLobby,
     alt: "Clinic waiting area",
-    placeholder: "Your Clinic’s Real Photos Will Be Showcased Here",
+    placeholder: "",
   },
   {
     src: clinicHall,
@@ -32,9 +32,7 @@ export default function ClinicGallery() {
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-12 text-center">
           <p className="mb-2 text-sm font-bold uppercase tracking-wider text-primary">Our Clinic</p>
-          <h2 className="text-3xl font-extrabold text-foreground md:text-4xl">
-            State-of-the-Art Facility
-          </h2>
+          <h2 className="text-3xl font-extrabold text-foreground md:text-4xl">State-of-the-Art Facility</h2>
           <p className="mt-3 text-muted-foreground">
             Take a look at our modern, hygienic, and comfortable dental clinic
           </p>
