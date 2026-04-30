@@ -52,7 +52,9 @@ export default function AppointmentForm() {
               </div>
               <div className="flex items-center gap-3 rounded-lg border border-border bg-card/80 p-4">
                 <span className="text-lg">🕐</span>
-                <span className="text-sm text-muted-foreground">Mon – Sat: 10:00 AM – 8:00 PM</span>
+                <span className="text-sm text-muted-foreground">
+                  Mon – Wed: 10:00 AM – 8:00 PM Thu – Fri: 10:00 AM – 10:00 PM
+                </span>
               </div>
             </div>
           </div>
