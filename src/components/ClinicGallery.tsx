@@ -1,7 +1,6 @@
 import clinicRoom from "@/assets/clinic-room.jpg";
 import clinicLobby from "@/assets/clinic-lobby.jpg";
 import clinicHall from "@/assets/clinic-hall.jpg";
-import clinicSterilization from "@/assets/clinic-sterilization.jpg";
 
 const images = [
   {
@@ -17,11 +16,6 @@ const images = [
   {
     src: clinicHall,
     alt: "Clinic treatment hall",
-    placeholder: "",
-  },
-  {
-    src: clinicSterilization,
-    alt: "Sterilization room",
     placeholder: "",
   },
 ];

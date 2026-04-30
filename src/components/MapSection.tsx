@@ -13,7 +13,7 @@ export default function MapSection() {
         <div className="overflow-hidden rounded-2xl border border-border">
           <iframe
             title="Just Smile Dental Care & Maxillofacial Clinic Location"
-            src="https://www.google.com/maps?q=Just+Smile+Dental+Care+%26+Maxillofacial+Clinic,+Uma+Plaza,+Kharvasa+Dindoli+Road,+Dindoli,+Surat,+Gujarat+394210&output=embed"
+            src="https://www.google.com/maps?q=21.142827,72.8810645&z=17&output=embed"
             width="100%"
             height="400"
             style={{ border: 0 }}
@@ -24,7 +24,7 @@ export default function MapSection() {
         </div>
         <div className="mt-4 text-center">
           <a
-            href="https://maps.app.goo.gl/LRSEdKrkPiZzAuQs7"
+            href="https://maps.app.goo.gl/casxzBJEWWsGmtFm8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/35"
