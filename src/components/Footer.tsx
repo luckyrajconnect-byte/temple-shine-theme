@@ -5,9 +5,9 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-bold text-primary-foreground">Dental Clinic</h3>
+            <h3 className="text-lg font-bold text-primary-foreground">Just Smile Dental Care & Maxillofacial Clinic</h3>
             <p className="mt-2 text-sm text-primary-foreground/60">
-              Your trusted dental care partner in India. Providing world-class dental treatments with a gentle touch.
+              Your trusted dental care partner in Surat. Providing world-class dental treatments with a gentle touch.
             </p>
             <div className="mt-4 flex gap-4">
               <a
