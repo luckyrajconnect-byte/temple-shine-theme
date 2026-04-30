@@ -1,6 +1,6 @@
-import clinicRoom from "@/assets/clinic-room.jpg";
-import clinicLobby from "@/assets/clinic-lobby.jpg";
-import clinicHall from "@/assets/clinic-hall.jpg";
+import clinicRoom from "@/assets/clinic-room.webp";
+import clinicLobby from "@/assets/clinic-lobby.webp";
+import clinicHall from "@/assets/clinic-hall.webp";
 
 const images = [
   {
@@ -42,7 +42,9 @@ export default function ClinicGallery() {
                 src={img.src}
                 alt={img.alt}
                 className="h-72 w-full object-cover"
+                loading="eager"
                 decoding="async"
+                fetchPriority="high"
                 width={800}
                 height={600}
               />
