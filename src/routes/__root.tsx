@@ -1,11 +1,12 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg.webp";
 import logo from "@/assets/logo.png";
-import clinicRoom from "@/assets/clinic-room.jpg";
-import clinicLobby from "@/assets/clinic-lobby.jpg";
-import clinicHall from "@/assets/clinic-hall.jpg";
+import headerLogo from "@/assets/logo-header.webp";
+import clinicRoom from "@/assets/clinic-room.webp";
+import clinicLobby from "@/assets/clinic-lobby.webp";
+import clinicHall from "@/assets/clinic-hall.webp";
 
 
 function NotFoundComponent() {
@@ -70,10 +71,10 @@ export const Route = createRootRoute({
       { rel: "icon", type: "image/png", href: logo },
       { rel: "apple-touch-icon", href: logo },
       { rel: "preload", as: "image", href: heroBg, fetchpriority: "high" },
-      { rel: "preload", as: "image", href: logo },
-      { rel: "preload", as: "image", href: clinicRoom },
-      { rel: "preload", as: "image", href: clinicLobby },
-      { rel: "preload", as: "image", href: clinicHall },
+      { rel: "preload", as: "image", href: headerLogo, fetchpriority: "high" },
+      { rel: "prefetch", as: "image", href: clinicRoom },
+      { rel: "prefetch", as: "image", href: clinicLobby },
+      { rel: "prefetch", as: "image", href: clinicHall },
       
     ],
   }),
