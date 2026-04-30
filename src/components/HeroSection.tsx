@@ -42,7 +42,7 @@ export default function HeroSection() {
               <span>📅</span> Book Appointment
             </a>
             <a
-              href="tel:+91XXXXXXXXXX"
+              href="tel:+917770059957"
               className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-primary-foreground/60 bg-primary-foreground/10 px-7 py-4 text-base font-bold text-primary-foreground backdrop-blur-md transition-all hover:border-primary-foreground hover:bg-primary-foreground/20"
             >
               <span>📞</span> Call Now
