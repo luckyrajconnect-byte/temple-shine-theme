@@ -1,5 +1,3 @@
-const doctorImg = "https://i.postimg.cc/KjGSb4X3/Your-Photo-Goes-202604261213.jpg";
-
 const qualifications = [
   "BDS (Bachelor of Dental Surgery)",
   "Affordable & High-Quality Treatment",
@@ -11,28 +9,8 @@ const qualifications = [
 export default function AboutDoctor() {
   return (
     <section id="about" className="py-20 bg-section-bg">
-      <div className="mx-auto max-w-7xl px-4">
-        <div className="grid items-center gap-12 md:grid-cols-2">
-          <div className="relative">
-            <div className="overflow-hidden rounded-2xl border border-primary/20 shadow-2xl shadow-primary/15 blur-overlay">
-              <img
-                src={doctorImg}
-                alt="Dr. Deepika Lashkia with patient"
-                className="w-full object-cover"
-                loading="lazy"
-                decoding="async"
-                fetchPriority="low"
-                width={800}
-                height={600}
-              />
-            </div>
-            <div className="absolute -bottom-4 -right-4 rounded-xl bg-primary px-5 py-3 text-primary-foreground shadow-xl shadow-primary/30">
-              <div className="text-lg font-bold">10+</div>
-              <div className="text-xs">Years Experience</div>
-            </div>
-          </div>
-
-          <div>
+      <div className="mx-auto max-w-4xl px-4 text-center">
+        <div>
             <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-primary">About the Doctor</p>
             <h2 className="text-3xl font-extrabold text-foreground md:text-4xl">Dr. Nikunj Patel</h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">
