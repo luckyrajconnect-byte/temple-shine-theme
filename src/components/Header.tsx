@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -16,8 +17,11 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-primary/20 bg-background/80 shadow-lg shadow-primary/10 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-        <a href="#home" className="text-xl font-extrabold text-foreground">
-          Just Smile Dental Care & Maxillofacial Clinic
+        <a href="#home" className="flex items-center gap-3">
+          <img src={logo} alt="Just Smile Dental Care & Maxillofacial Clinic logo" className="h-12 w-12 object-contain" width={48} height={48} />
+          <span className="hidden sm:inline text-base md:text-lg font-extrabold text-foreground leading-tight">
+            Just Smile Dental Care<br className="hidden lg:inline" /> & Maxillofacial Clinic
+          </span>
         </a>
 
         <nav className="hidden items-center gap-6 md:flex">
