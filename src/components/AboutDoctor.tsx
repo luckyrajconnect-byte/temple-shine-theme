@@ -19,7 +19,7 @@ export default function AboutDoctor() {
               comfort. His approach combines modern techniques with practical treatment planning to ensure effective and
               long-lasting results.
             </p>
-            <ul className="mt-6 space-y-3">
+            <ul className="mt-6 space-y-3 inline-block text-left">
               {qualifications.map((q) => (
                 <li key={q} className="flex items-center gap-3 text-sm text-foreground">
                   <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10 text-primary text-xs">
@@ -29,12 +29,14 @@ export default function AboutDoctor() {
                 </li>
               ))}
             </ul>
-            <a
-              href="#appointment"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/35"
-            >
-              Meet the Doctor
-            </a>
+            <div>
+              <a
+                href="#appointment"
+                className="mt-8 inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/35"
+              >
+                Meet the Doctor
+              </a>
+            </div>
           </div>
         </div>
       </div>
