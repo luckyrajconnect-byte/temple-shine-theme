@@ -1,6 +1,12 @@
 import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import heroBg from "@/assets/hero-bg.jpg";
+import logo from "@/assets/logo.png";
+import clinicRoom from "@/assets/clinic-room.jpg";
+import clinicLobby from "@/assets/clinic-lobby.jpg";
+import clinicHall from "@/assets/clinic-hall.jpg";
+import clinicSterilization from "@/assets/clinic-sterilization.jpg";
 
 function NotFoundComponent() {
   return (
@@ -29,24 +35,41 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "A dental clinic website showcasing services, doctor information, patient results, and appointment booking." },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "A dental clinic website showcasing services, doctor information, patient results, and appointment booking." },
+      { title: "Just Smile Dental Care & Maxillofacial Clinic — Surat" },
+      {
+        name: "description",
+        content:
+          "Just Smile Dental Care & Maxillofacial Clinic in Dindoli, Surat. Painless dental treatments, implants, smile makeover, root canal, braces & kids dentistry by Dr. Nikunj Patel.",
+      },
+      { name: "author", content: "Just Smile Dental Care & Maxillofacial Clinic" },
+      { name: "theme-color", content: "#0ea5e9" },
+      { property: "og:title", content: "Just Smile Dental Care & Maxillofacial Clinic — Surat" },
+      {
+        property: "og:description",
+        content:
+          "Painless dental treatments, implants, smile makeover & more in Dindoli, Surat. Book your appointment today.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "Lovable App" },
-      { name: "twitter:description", content: "A dental clinic website showcasing services, doctor information, patient results, and appointment booking." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/defd6c72-96e6-45cc-a4a2-26161caca6f8/id-preview-a443253e--1fc15966-c29d-43c1-80ce-89b56f55ff72.lovable.app-1776392418468.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/defd6c72-96e6-45cc-a4a2-26161caca6f8/id-preview-a443253e--1fc15966-c29d-43c1-80ce-89b56f55ff72.lovable.app-1776392418468.png" },
+      { property: "og:image", content: logo },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Just Smile Dental Care & Maxillofacial Clinic — Surat" },
+      {
+        name: "twitter:description",
+        content:
+          "Painless dental treatments, implants, smile makeover & more in Dindoli, Surat. Book your appointment today.",
+      },
+      { name: "twitter:image", content: logo },
     ],
     links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
+      { rel: "stylesheet", href: appCss },
+      { rel: "icon", type: "image/png", href: logo },
+      { rel: "apple-touch-icon", href: logo },
+      { rel: "preload", as: "image", href: heroBg, fetchpriority: "high" },
+      { rel: "preload", as: "image", href: logo },
+      { rel: "preload", as: "image", href: clinicRoom },
+      { rel: "preload", as: "image", href: clinicLobby },
+      { rel: "preload", as: "image", href: clinicHall },
+      { rel: "preload", as: "image", href: clinicSterilization },
     ],
   }),
   shellComponent: RootShell,
