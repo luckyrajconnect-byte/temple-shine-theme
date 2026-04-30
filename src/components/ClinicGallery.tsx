@@ -48,9 +48,7 @@ export default function ClinicGallery() {
                 src={img.src}
                 alt={img.alt}
                 className="h-72 w-full object-cover"
-                loading="lazy"
                 decoding="async"
-                fetchPriority="low"
                 width={800}
                 height={600}
               />
