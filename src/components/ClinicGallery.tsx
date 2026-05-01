@@ -1,19 +1,14 @@
-import clinicRoom from "@/assets/clinic-room.webp";
-import clinicLobby from "@/assets/clinic-lobby.webp";
-import clinicHall from "@/assets/clinic-hall.webp";
+import clinicRoom from "@/assets/clinic-room-real.webp";
+import clinicReception from "@/assets/clinic-reception-real.webp";
 
 const images = [
   {
     src: clinicRoom,
-    alt: "Dental treatment room",
+    alt: "Modern dental treatment room with dental chair",
   },
   {
-    src: clinicLobby,
-    alt: "Clinic waiting area",
-  },
-  {
-    src: clinicHall,
-    alt: "Clinic treatment hall",
+    src: clinicReception,
+    alt: "Clinic reception and waiting area",
   },
 ];
 
@@ -29,7 +24,7 @@ export default function ClinicGallery() {
           </p>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2">
           {images.map((img, i) => (
             <div
               key={i}

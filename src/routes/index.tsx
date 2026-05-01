@@ -7,6 +7,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import ServicesSection from "@/components/ServicesSection";
 import BeforeAfterGallery from "@/components/BeforeAfterGallery";
 import ClinicGallery from "@/components/ClinicGallery";
+import CertificatesSection from "@/components/CertificatesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import AppointmentForm from "@/components/AppointmentForm";
 import FAQSection from "@/components/FAQSection";
@@ -44,6 +45,7 @@ function Index() {
       <ServicesSection />
       <BeforeAfterGallery />
       <ClinicGallery />
+      <CertificatesSection />
       <TestimonialsSection />
       <AppointmentForm />
       <FAQSection />

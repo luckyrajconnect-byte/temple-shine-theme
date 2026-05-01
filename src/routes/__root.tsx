@@ -4,9 +4,8 @@ import appCss from "../styles.css?url";
 import heroBg from "@/assets/hero-bg.webp";
 import logo from "@/assets/logo.png";
 import headerLogo from "@/assets/logo-header.webp";
-import clinicRoom from "@/assets/clinic-room.webp";
-import clinicLobby from "@/assets/clinic-lobby.webp";
-import clinicHall from "@/assets/clinic-hall.webp";
+import clinicRoom from "@/assets/clinic-room-real.webp";
+import clinicReception from "@/assets/clinic-reception-real.webp";
 
 
 function NotFoundComponent() {
@@ -73,8 +72,7 @@ export const Route = createRootRoute({
       { rel: "preload", as: "image", href: heroBg, fetchpriority: "high" },
       { rel: "preload", as: "image", href: headerLogo, fetchpriority: "high" },
       { rel: "prefetch", as: "image", href: clinicRoom },
-      { rel: "prefetch", as: "image", href: clinicLobby },
-      { rel: "prefetch", as: "image", href: clinicHall },
+      { rel: "prefetch", as: "image", href: clinicReception },
       
     ],
   }),

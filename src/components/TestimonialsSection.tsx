@@ -3,7 +3,7 @@ const reviews = [
     name: "Rahul Sharma",
     initial: "R",
     time: "2 weeks ago",
-    text: "Best dental experience I've ever had! Dr. Deepika is incredibly gentle and professional. The clinic is very clean and modern. Highly recommend!",
+    text: "Best dental experience I've ever had! Dr. Nikunj is incredibly gentle and professional. The clinic is very clean and modern. Highly recommend!",
   },
   {
     name: "Priya Patel",
@@ -15,13 +15,13 @@ const reviews = [
     name: "Amit Gupta",
     initial: "A",
     time: "3 weeks ago",
-    text: "Excellent root canal treatment. I was very scared but Dr. Deepika made the entire process painless. The clinic has world-class equipment.",
+    text: "Excellent root canal treatment. I was very scared but Dr. Nikunj made the entire process painless. The clinic has world-class equipment.",
   },
   {
     name: "Sneha Jain",
     initial: "S",
     time: "1 month ago",
-    text: "My daughter loves visiting this clinic! The child-friendly approach is wonderful. Dr. Deepika is so patient with kids. Thank you!",
+    text: "My daughter loves visiting this clinic! The child-friendly approach is wonderful. Dr. Nikunj is so patient with kids. Thank you!",
   },
   {
     name: "Vikram Singh",
