@@ -24,21 +24,21 @@ export default function ClinicGallery() {
           </p>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-6 sm:grid-cols-2">
           {images.map((img, i) => (
             <div
               key={i}
-              className="gallery-card group overflow-hidden rounded-xl border border-primary/20 shadow-xl shadow-primary/10"
+              className="gallery-card group overflow-hidden rounded-xl border border-primary/20 bg-background shadow-xl shadow-primary/10"
             >
               <img
                 src={img.src}
                 alt={img.alt}
-                className="h-72 w-full object-cover"
+                className="h-auto w-full object-contain"
                 loading="eager"
                 decoding="async"
                 fetchPriority="high"
-                width={800}
-                height={600}
+                width={1400}
+                height={1023}
               />
             </div>
           ))}

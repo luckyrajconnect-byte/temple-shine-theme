@@ -71,8 +71,8 @@ export const Route = createRootRoute({
       { rel: "apple-touch-icon", href: logo },
       { rel: "preload", as: "image", href: heroBg, fetchpriority: "high" },
       { rel: "preload", as: "image", href: headerLogo, fetchpriority: "high" },
-      { rel: "prefetch", as: "image", href: clinicRoom },
-      { rel: "prefetch", as: "image", href: clinicReception },
+      { rel: "preload", as: "image", href: clinicRoom },
+      { rel: "preload", as: "image", href: clinicReception },
       
     ],
   }),
