@@ -3,13 +3,12 @@ import drNikunj from "@/assets/dr-nikunj.webp";
 const qualifications = [
   "BDS",
   "MDS (Oral & Maxillofacial Surgery)",
-  "FHNSU (Fellowship in Head & Neck Onco Surgery)",
+  "FHNOS",
 ];
 
 const additionalTraining = [
-  "Advanced Implantology Course (IDAIM Medical Institute)",
-  "Complete Implant Prosthetics Course – Mumbai",
-  "Cortical Based Implant Course",
+  "Advance implantology courses from MiAMI Medical Institute - USA",
+  "Clinical Immediate Implant masters courses - from MEDA, A’ Coruna Spain",
 ];
 
 export default function AboutDoctor() {
