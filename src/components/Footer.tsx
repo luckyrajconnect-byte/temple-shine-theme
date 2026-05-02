@@ -1,3 +1,5 @@
+import logo from "@/assets/logo-footer.webp";
+
 export default function Footer() {
   return (
     <footer className="border-t border-border bg-foreground">
@@ -5,7 +7,8 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <div>
+            <div className="flex items-center gap-3">
+              <img src={logo} alt="Just Smile logo" className="h-16 w-auto object-contain" loading="eager" fetchPriority="high" />
               <h3 className="text-base font-bold text-primary-foreground leading-tight">Just Smile Dental Care<br />& Maxillofacial Clinic</h3>
             </div>
             <p className="mt-3 text-sm text-primary-foreground/60">
