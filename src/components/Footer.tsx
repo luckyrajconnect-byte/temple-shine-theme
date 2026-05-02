@@ -1,4 +1,4 @@
-export default function Footer() {
+import logo from "@/assets/logo-footer.webp";
   return (
     <footer className="border-t border-border bg-foreground">
       <div className="mx-auto max-w-7xl px-4 py-12">
