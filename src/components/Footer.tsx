@@ -1,3 +1,5 @@
+import logo from "@/assets/logo-new.webp";
+
 export default function Footer() {
   return (
     <footer className="border-t border-border bg-foreground">
@@ -5,8 +7,11 @@ export default function Footer() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-bold text-primary-foreground">Just Smile Dental Care & Maxillofacial Clinic</h3>
-            <p className="mt-2 text-sm text-primary-foreground/60">
+            <div className="flex items-center gap-3">
+              <img src={logo} alt="Just Smile Dental Care & Maxillofacial Clinic logo" className="h-14 w-14 object-contain bg-white rounded-lg p-1" width={56} height={56} />
+              <h3 className="text-base font-bold text-primary-foreground leading-tight">Just Smile Dental Care<br />& Maxillofacial Clinic</h3>
+            </div>
+            <p className="mt-3 text-sm text-primary-foreground/60">
               Your trusted dental care partner in Surat. Providing world-class dental treatments with a gentle touch.
             </p>
             <div className="mt-4 flex gap-4">
