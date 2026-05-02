@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "@/assets/logo-header.webp";
+import logo from "@/assets/logo-new.webp";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -18,9 +18,9 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-primary/20 bg-background/80 shadow-lg shadow-primary/10 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <a href="#home" className="flex items-center gap-3">
-          <img src={logo} alt="Just Smile Dental Care & Maxillofacial Clinic logo" className="h-14 w-14 md:h-16 md:w-16 object-contain" width={64} height={64} />
-          <span className="hidden sm:inline text-base md:text-lg font-extrabold text-foreground leading-tight">
-            Just Smile Dental Care<br className="hidden lg:inline" /> & Maxillofacial Clinic
+          <img src={logo} alt="Just Smile Dental Care & Maxillofacial Clinic logo" className="h-12 w-12 md:h-16 md:w-16 object-contain" width={64} height={64} />
+          <span className="text-[11px] sm:text-sm md:text-lg font-extrabold text-foreground leading-tight">
+            Just Smile Dental Care<br /> & Maxillofacial Clinic
           </span>
         </a>
 
