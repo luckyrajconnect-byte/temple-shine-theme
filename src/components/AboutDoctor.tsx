@@ -34,8 +34,9 @@ export default function AboutDoctor() {
                 className="h-auto w-full max-w-sm object-cover"
                 width={600}
                 height={750}
-                loading="lazy"
+                loading="eager"
                 decoding="async"
+                fetchPriority="high"
               />
             </div>
           </div>

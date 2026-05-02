@@ -3,9 +3,18 @@ import { Outlet, Link, createRootRoute, HeadContent, Scripts } from "@tanstack/r
 import appCss from "../styles.css?url";
 import heroBg from "@/assets/hero-bg.webp";
 import logo from "@/assets/logo.png";
-import headerLogo from "@/assets/logo-header.webp";
+import headerLogo from "@/assets/logo-new.webp";
 import clinicRoom from "@/assets/clinic-room-real.webp";
 import clinicReception from "@/assets/clinic-reception-real.webp";
+import drNikunj from "@/assets/dr-nikunj.webp";
+import svcWhitening from "@/assets/service-teeth-whitening-visual.webp";
+import svcImplants from "@/assets/service-dental-implants-visual.webp";
+import svcBraces from "@/assets/service-braces-aligners-visual.webp";
+import svcRoot from "@/assets/service-root-canal-visual.webp";
+import svcGeneral from "@/assets/service-general-dentistry-visual.webp";
+import svcKids from "@/assets/service-kids-dentistry-visual.webp";
+import svcSmile from "@/assets/service-smile-makeover-visual.webp";
+import svcEmergency from "@/assets/service-emergency-dental-visual.webp";
 
 
 function NotFoundComponent() {
@@ -73,7 +82,15 @@ export const Route = createRootRoute({
       { rel: "preload", as: "image", href: headerLogo, fetchpriority: "high" },
       { rel: "preload", as: "image", href: clinicRoom },
       { rel: "preload", as: "image", href: clinicReception },
-      
+      { rel: "preload", as: "image", href: drNikunj },
+      { rel: "preload", as: "image", href: svcWhitening },
+      { rel: "preload", as: "image", href: svcImplants },
+      { rel: "preload", as: "image", href: svcBraces },
+      { rel: "preload", as: "image", href: svcRoot },
+      { rel: "preload", as: "image", href: svcGeneral },
+      { rel: "preload", as: "image", href: svcKids },
+      { rel: "preload", as: "image", href: svcSmile },
+      { rel: "preload", as: "image", href: svcEmergency },
     ],
   }),
   shellComponent: RootShell,
