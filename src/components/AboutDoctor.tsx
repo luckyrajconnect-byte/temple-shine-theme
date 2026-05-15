@@ -8,9 +8,19 @@ const qualifications = [
 
 const additionalTraining = [
   "Advance implantology courses from MiAMI Medical Institute - USA",
-  "Clinical Immediate Implant masters courses - from MEDA, A’ Coruna Spain",
+  "Clinical Immediate Implant masters courses - from MEDA, A\u2019 Coruna Spain",
   "Compelle implant prosthesis course mumbai",
   "Cortical basal Implant Course - Chennai",
+];
+
+const memberships = [
+  "Vice President - AOMSI Gujarat state",
+  "AOMSI - Member of Association of Oral and Maxillofacial Surgeon of India - Life time Member",
+  "FHNO - Member of Foundation of Head & Neck Oncology",
+  "IDA - Member of India Dental Association",
+  "IDA - Navsari & Surat",
+  "BNI - Member of Business Network International",
+  "Surat BNI - Falcon",
 ];
 
 export default function AboutDoctor() {
@@ -72,6 +82,20 @@ export default function AboutDoctor() {
                       ★
                     </span>
                     {t}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="mt-5">
+              <h3 className="text-base font-bold text-foreground">Memberships</h3>
+              <ul className="mt-3 space-y-2">
+                {memberships.map((m) => (
+                  <li key={m} className="flex items-center gap-3 text-sm text-foreground">
+                    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-primary/10 text-primary text-xs">
+                      ♦
+                    </span>
+                    {m}
                   </li>
                 ))}
               </ul>
